@@ -15,3 +15,13 @@
 }
 
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .form_group_inline {
+    width: 20%;
+    display: inline-block;
+  }

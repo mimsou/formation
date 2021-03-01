@@ -1,0 +1,15 @@
+.header_title {
+    padding: 20px 0px 20px 0px;
+    border-bottom: solid rgb(226, 217, 217)  1px;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content_warp{
+    width: 1024px;
+    margin: auto;
+}

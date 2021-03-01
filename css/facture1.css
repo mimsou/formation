@@ -1,27 +1,90 @@
-.header_title {
-    padding: 20px 0px 20px 0px;
-    border-bottom: solid rgb(226, 217, 217)  1px;
+.form_group_inline div,
+.form_group_inline label {
+  display: inline-block;
 }
 
-.title{
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
+.form_group_inline {
+  width: 20%;
+  display: inline-block;
 }
-
-.content_warp{
-    width: 1024px;
-    margin: auto;
-}
-
 
 .row {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 10px 10px 10px;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+ 
+}
 
-  .form_group_inline {
-    width: 20%;
-    display: inline-block;
-  }
+.form_container {
+  width: 1024px;
+  margin: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-size: 24px;
+}
+
+.header-title {
+    padding: 20px 0px 20px 0px;
+    border-bottom: rgb(226, 217, 217) solid 1px;
+}
+
+.header-title , .row {  
+  margin: 40px 5px 20px 0px;
+}
+
+.form_group_inline input{
+   border: rgb(226, 217, 217) solid 1px;
+   font-size: 14px;
+   width: 90%;
+   border-radius: 5px;
+   padding: 5px 2px 5px 2px ;
+   color: rgb(150, 149, 149);
+
+  box-shadow: 1px 1px 2px #c9cdd3;
+}
+
+.form_group_inline input:focus{
+    outline:none;
+    border: rgb(202, 192, 192) solid 1px;
+    font-size: 14px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px 2px 5px 2px ;
+    color: rgb(150, 149, 149);
+    box-shadow: 1px 1px 2px #ece9e9;
+   
+ }
+
+ .form_group_inline label{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-size: 14px;
+    color: rgb(146, 137, 137);
+ }
+
+ .submit_detail{
+    margin: 20px 0px 20px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-size: 14px;
+ }
+
+ .highlight{
+     background-color: #eff2f5;
+ }
+
+ .section_title{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  font-size: 16px;
+ }
+
+
+ div {
+   //border: 1px solid red;
+ }
+
+
+ .highlight{
+     background-color: #eff2f5;
+ }

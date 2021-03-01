@@ -1,121 +1,94 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title> Facture </title>
+  <head>
+    <title>Formation</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/main1.css" />
+    <script src="js/facture.js"></script>
+    <link rel="stylesheet" href="css/main1  .css" />
     <link rel="stylesheet" href="css/facture1.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> 
-</head> 
-
-<body>
-  
+    <style></style>
+  </head>
+  <body>
     <div class="main_warp">
-
-
-        <div class="menu_warp">
-           <ul class="menu_list">
-               <li> <a href="index.html" class="menu_link"> Accueil  </a> </li>
-               <li> <a href="facture_1.html" class="menu_link"> Facture  </a> </li>
-               <li> <a href="contact.html" class="menu_link"> Contact  </a> </li>
-           </ul>
+      <div class="menu_warp">
+        <div id="menu">
+          <ul class="menu_list">
+            <li>
+              <a href="index.html" class="actif">Accueil</a>
+            </li>
+            <li>
+              <a href="facture.html">Facture</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-
-       
-        <div class="content_warp">
-
-
-            <div class="form_container">
-
-
-              <div class="header_title">
-                <div class="title">SAISIE DES FACTURES :</div>
-              </div>
-
-
-              <form>
-
-                <div class="section_title">Facture Entéte :  </div>
-
-
-                <div class="form_head">
-
-                  <div class="row">
-    
-                    <div class="form_group_inline">
-                      <label>Code facture</label> <input type="text" />
-                    </div>
-    
-                    <div class="form_group_inline">
-                      <label>Service</label> <input type="text" />
-                    </div>
-    
-                    <div class="form_group_inline">
-                      <label>Fournisseur</label> <input type="text" />
-                    </div>
-    
-                    <div class="form_group_inline">
-                      <label>Bon de commande</label> <input type="text" />
-                    </div>
-    
-                    <div class="form_group_inline">
-                      <label>Numéro BL</label> <input  type="text" />
-                    </div>
-    
-                  </div>
-
-
-                </div>
-
-
-                <div class="form_add_detail">
-
-                  <div class="row highlight">
-
-                    <div class="form_group_inline">
-                      <label>Désignation</label> <input id="designation" type="text" />
-                    </div>
-
-                    <div class="form_group_inline">
-                      <label>Qte</label> <input  id="qte" type="text" />
-                    </div>
-
-                    <div class="form_group_inline">
-                      <label>Prix</label> <input  id="prix" type="text" />
-                    </div>
-
-                    <div class="form_group_inline">
-                      <label>TVA</label> <input  id="tva" type="text" />
-                    </div>
-
-                    <div class="form_group_inline">
-                      <button type="button" class="submit_detail">Ajouter</button>
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="section_title">Facture Détails :  </div>
-                <div class="form_details">
-                  <div class="row-detail"> </div>
-                    
-                </div>
-              </form>
-
-             
+      </div>
+      <div class="content_warp">
+        <div class="form_container">
+          <div class="header-title">
+            <div class="title">SAISIE DES FACTURES :</div>
           </div>
+          <form>
+            <div class="section_title">Facture Entéte :  </div>
+            <div class="form_head">
+              <div class="row">
 
+                <div class="form_group_inline">
+                  <label>Code facture</label> <input type="text" />
+                </div>
+
+                <div class="form_group_inline">
+                  <label>Service</label> <input type="text" />
+                </div>
+
+                <div class="form_group_inline">
+                  <label>Fournisseur</label> <input type="text" />
+                </div>
+
+                <div class="form_group_inline">
+                  <label>Bon de commande</label> <input type="text" />
+                </div>
+
+                <div class="form_group_inline">
+                  <label>Numéro BL</label> <input  type="text" />
+                </div>
+
+              </div>
+            </div>
+            <div class="form_add_detail">
+              <div class="row highlight">
+                <div class="form_group_inline">
+                  <label>Désignation</label> <input id="designation" type="text" />
+                </div>
+                <div class="form_group_inline">
+                  <label>Qte</label> <input  id="qte" type="text" />
+                </div>
+                <div class="form_group_inline">
+                  <label>Prix</label> <input  id="prix" type="text" />
+                </div>
+                <div class="form_group_inline">
+                  <label>TVA</label> <input  id="tva" type="text" />
+                </div>
+                <div class="form_group_inline">
+                  <button type="button" class="submit_detail">Ajouter</button>
+                </div>
+              </div>
+            </div>
+            <div class="section_title">Facture Détails :  </div>
+            <div class="form_details">
+              <div class="row-detail"> </div>
+                
+            </div>
+          </form> 
+            <div class="footer_warp">
+        <button type="button" class="submit_detail">Sauvegarder</button>
+      </div>
+        </div>
+     
+      </div>
+      
     </div>
-
-
-
-    
-    
-</body>
-
+  </body>
 </html>
-
-
-
-

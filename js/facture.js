@@ -1,17 +1,18 @@
-$(function(){
+$(function () {
+  $(".submit_detail").on("click", function () {
+    var html = '<div class="row-detail">';
 
+    $("#article-form input").each(function () {
+        html += "<div >"
 
-  $("#designation").on("focus",function(){
+        html += $(this).val()
+
+        html += "</div>"
+    });
+
+    html +=  "</div>";
+
+    $(".form_details").append(html);
      
-  })
-
-    $(".submit_detail").click(function(){
-      $("#article-form input").each(function(){
-          
-      })
-    })
-
-})
-
-
- 
+  });
+});

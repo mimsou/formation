@@ -88,3 +88,13 @@
  .highlight{
      background-color: #eff2f5;
  }
+
+ .description{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .row-detail{
+  display: flex;
+  justify-content: space-between;
+ }

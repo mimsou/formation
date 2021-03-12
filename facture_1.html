@@ -4,6 +4,8 @@
     <title>Formation</title>
     <meta charset="UTF-8" />
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/methodes.js"></script>
     <script src="js/facture.js"></script>
     <link rel="stylesheet" href="css/main1.css" />
     <link rel="stylesheet" href="css/facture1.css" />
@@ -31,21 +33,21 @@
           <div class="header-title">
             <div class="title">SAISIE DES FACTURES :</div>
           </div>
-          <form>
+          <form id="factureForm"  >
             <div class="section_title">Facture Entéte :  </div>
             <div class="form_head">
               <div class="row">
 
                 <div class="form_group_inline">
-                  <label>Code facture</label> <input type="text" />
+                  <label>Code facture</label> <input id="codefacture" name="codefacture"  type="text" />
                 </div>
 
                 <div class="form_group_inline">
-                  <label>Service</label> <input type="text" />
+                  <label>Service</label> <input id="service" name="service" type="text" />
                 </div>
 
                 <div class="form_group_inline">
-                  <label>Fournisseur</label> <input type="text" />
+                  <label>Fournisseur</label> <input  id="fournisseur" name="fournisseur" type="text" />
                 </div>
 
                 <div class="form_group_inline">
@@ -90,10 +92,13 @@
              
                 
             </div>
-          </form> 
+
             <div class="footer_warp">
-        <button type="button" class="submit_detail">Sauvegarder</button>
-      </div>
+              <button type="submit" class="submit">Sauvegarder</button>
+            </div>
+
+          </form> 
+         
         </div>
      
       </div>

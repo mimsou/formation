@@ -98,3 +98,17 @@
   display: flex;
   justify-content: space-between;
  }
+
+ .row-detail div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    margin: 5px;
+ }
+
+ .description div{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  font-weight: bolder;
+ }
+
+ .section_title{
+   margin: 20px;
+ }
